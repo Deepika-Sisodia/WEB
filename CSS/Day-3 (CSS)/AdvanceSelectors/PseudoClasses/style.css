@@ -1,0 +1,39 @@
+/* HOVER
+h1{
+    background-color: gray;
+}
+h1:hover{
+    background-color: coral;
+}
+
+input:hover{
+    background-color: pink;
+    border: 2px solid blue;
+}
+
+/* ACTIVE */
+/* a[href="https://wikipedia.com"]:active{
+    color: aqua;
+} */
+
+/* Visited */
+
+/* a[href="https://reddit.com"]:visited{
+    color: rgb(67, 4, 6);
+} */ 
+
+/* FOCUS */
+/* input{
+    background-color: aquamarine;
+}
+
+input:focus{
+    background-color: brown;
+} */
+
+/* nth-of-type */
+
+/* ol li:nth-of-type(odd){
+    color: rgb(211, 5, 5);
+} */
+

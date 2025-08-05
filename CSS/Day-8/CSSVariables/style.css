@@ -1,0 +1,13 @@
+
+
+
+
+:root{
+    --bg-color-yellow: #d7dd33; 
+    --bg-color-red: #dd4d33;  
+}
+
+article,h2,h3{
+    background-color: var(--bg-color-yellow);
+    background-color: var(--bg-color-red);
+}

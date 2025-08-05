@@ -1,0 +1,59 @@
+section{
+    width: 60%;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+/* @media screen and (min-width:807px){
+    h1{
+        color: orange;
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width:659px){
+    h1{
+        color: rgb(115, 0, 255);
+        font-size: 40px;
+    }
+} */
+
+
+/* @media screen and (min-width:659px){
+    h1{
+        color: rgb(115, 0, 255);
+        font-size: 40px;
+    }
+}
+@media screen and (min-width:807px){
+    h1{
+        color: orange;
+        font-size: 40px;
+    }
+} */
+
+
+/* @media screen and (orientation:landscape){
+    h1{
+        color: yellow;
+    }
+}
+
+@media all and (orientation:portrait){
+    h1{
+        color: rgb(136, 39, 133);
+    }
+} */
+
+@media screen and (orientation:landscape),(min-width:600px) {
+    h1{
+        color: green;
+    }
+    
+}

@@ -1,0 +1,16 @@
+h1{
+    color: rgba(229, 241, 14, 0.7);
+    font-size: 38px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: rgba(43, 7, 83,0.95);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+canvas{
+    background-color: black;
+    border: 10px solid rgba(229, 241, 14, 0.95);
+}

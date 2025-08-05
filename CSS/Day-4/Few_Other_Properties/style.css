@@ -1,0 +1,45 @@
+/* OVERFLOW */
+/* p{
+    white-space: nowrap;
+    overflow: hidden;
+    /* overflow: scroll; */
+    /* text-overflow: ellipsis; */
+    /* text-overflow: clip; 
+}*/
+
+/* p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p:hover{
+    overflow: scroll;
+    text-overflow: clip;
+} */
+
+/* MIN and Max Width */
+/*div{
+    background-color: blue;
+    /* width: 1000px; */
+    /* min-width: 300px;
+    max-width: 1000px;
+} */
+
+
+/* FLOAT AND CLEAR */
+/* img{
+    width: 200px;
+    float:right;
+    float: left;
+
+} */
+/*
+p:nth-of-type(3){
+    clear: left;
+    clear: both;
+    clear: right;
+
+} */
+
+

@@ -1,0 +1,30 @@
+div::first-letter{
+    font-size: 50px;
+    color: orange;
+}
+
+p::first-line{
+    font-family: cursive;
+}
+
+span::first-letter{
+    font-size: 100px;
+    color: red;
+}
+
+/* a[href="https://google.com"]::after{
+    content: "hii i am ur after";
+} */
+
+/* a[href="https://google.com"]::before{
+    content: "hii i am ur before ";
+} */
+
+a[href="https://google.com"]::before{
+    content: '\1F4F1';
+    font-size: 50px;
+}
+
+a[href="https://google.com"]{
+    text-decoration: none;
+}

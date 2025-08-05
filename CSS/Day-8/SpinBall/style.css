@@ -1,0 +1,33 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-top: 10px solid red;
+    border-bottom: 10px solid yellow;
+    border-left:10px solid green;
+    border-right:10px solid blue;
+    border-radius: 50%;
+    margin: 30px auto;
+    
+}
+
+.box:hover{
+    animation-name: loader;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes loader {
+    0%{
+        transform: translateY(0px) rotate(0deg);
+        
+    }
+    50%{
+        transform:translateY(500px) rotate(180deg);
+    }
+
+    100%{
+        transform:translateY(0px) rotate(360deg);
+    }
+}

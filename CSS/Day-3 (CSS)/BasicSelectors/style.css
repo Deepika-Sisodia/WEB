@@ -1,0 +1,51 @@
+/* ----------------Element selector-------------- */
+
+/* div{
+    border: 2px solid black;
+}
+
+p{
+    color: blueviolet;
+} */
+
+/*--------------- Id selector------------------ */
+
+/* #sam{
+    background-color: aqua;
+    border: 2px solid black;
+} */
+
+/*------------ Class Selector ---------------*/
+
+/* .special{
+    color: blue;
+    background-color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+/* ------------- Attribute Selector------------ */
+
+/* a[href="https://google.com"]{
+    color: chartreuse;
+}
+
+input[type="text"]{
+    border: 2px dashed pink;
+}
+
+input[disabled]{
+    font-size: 50px;
+    background-color: rgb(218, 232, 26);
+} */
+
+/* -------------Universal Selector------------ */
+
+/* *{
+    background-color: rgb(81, 255, 0);
+    border: 2px solid yellow;
+} */
+
+/* body{
+    color: coral;
+    border: 2px solid crimson;
+} */

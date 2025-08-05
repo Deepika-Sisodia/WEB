@@ -1,0 +1,33 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: cadetblue;
+    border: 5px dotted yellowgreen;
+
+    /* margin */
+    /* margin: 100px; */
+    /* margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px; */
+    margin: 80px 50px 70px 220px;
+
+    /* padding */
+    /* padding: 100px; */
+    /* padding-left: 80px;
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px; */
+    padding: 40px 60px 80px 100px;
+    
+
+
+}
+
+span{
+    height: 300px;
+    width: 300px;
+    border: 20px solid blue;
+    margin: 100px;
+    padding: 10px;
+}

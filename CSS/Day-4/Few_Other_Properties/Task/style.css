@@ -1,0 +1,21 @@
+body{
+    background-color: pink;
+}
+section{
+    border: 5px solid black;
+    margin: 30px auto;
+    width: 75vw;
+    height: 75vh;
+    overflow: scroll;
+}
+
+
+#img1{
+    height: 200px;
+    float: left;
+}
+#img2{
+    float: right;
+    height: 200px;
+    width: 200px;
+}

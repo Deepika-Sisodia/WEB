@@ -1,0 +1,44 @@
+/* absolute */
+#abs{
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+/* Relative */
+
+/* % */
+/* .a1{
+    font-size: 100px;
+}
+.a1 p{
+    font-size: 50%;
+}
+
+/* em */
+
+/* .fs{
+    font-size: 20px;
+}
+
+li{
+    font-size: 2em;
+} */ 
+
+/* rem */
+
+/* .fs{
+    font-size: 30px;
+}
+
+li{
+    font-size: 3rem;
+} */
+
+/* vh and vw*/
+
+#pyara{
+    width: 50vw;
+    height: 50vh;
+    background-color: aquamarine;
+}

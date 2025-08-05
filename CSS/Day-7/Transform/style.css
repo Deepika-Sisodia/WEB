@@ -1,0 +1,27 @@
+h1{
+    font-size: 40px;
+    color: aquamarine;
+    transition: 2s;
+    text-shadow: 0 10px blue;
+    margin-left: 450px;
+    margin-top: 400px;
+}
+
+h1:hover{
+    /* transform: translateX(400px);
+    transform: translateY(400px);
+    transform: translateZ(400px); */
+
+    /* transform: rotateX(180deg); */
+    /* transform: rotateY(180deg); */
+    /* transform: rotateZ(180deg); */
+
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: scaleZ(2); */
+    /* transform: scale(1.5,1.5); */
+
+    /* transform: skewX(20deg); */
+    /* transform: skewY(20deg); */
+
+}

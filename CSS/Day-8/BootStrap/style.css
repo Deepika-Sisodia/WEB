@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#sam{
+    background-color: aqua;
+    height: 100%;
+    width: 100vh;
+    border: 2px solid black;
+}

@@ -1,0 +1,25 @@
+/* ---------Combinators------ */
+
+/* 1. Descendant */
+/* section div p{
+    color: aqua;
+}
+section article div h5{
+    color: blueviolet;
+} */
+
+/* 2. Child */
+/* article>div>p{
+    color: blue;
+} */
+
+/* 3. Adjacent Sibling */
+
+section + article{
+    background-color: aqua;
+}
+
+/* 4. General Sibling */
+/* section ~ article{
+    background-color: brown;
+} */

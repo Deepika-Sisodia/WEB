@@ -1,0 +1,21 @@
+.first{
+    color: indigo;
+}
+
+.second{
+    background-color: crimson;
+}
+
+.third{
+    border: 10px solid slateblue;
+}
+
+.sam{
+    font-size: 50px;
+}
+
+#container{
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+}
