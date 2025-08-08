@@ -1,4 +1,5 @@
-
+// express use for making servers
+// it is a framework for node js
 
 const express = require('express');  // returns a function
 

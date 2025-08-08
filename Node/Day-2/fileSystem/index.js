@@ -68,3 +68,6 @@
 
 // fs.unlinkSync('abc.txt');
 
+const fs = require('fs');
+let data = "namastee ki haal chaal";
+fs.writeFile('sam.txt',data,{},()=>{})
