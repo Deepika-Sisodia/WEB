@@ -70,10 +70,8 @@ app.post('/blogs', (req,res)=>{
 
 // task 4 : show info about one particular block
 app.get('/blogs/:id', (req,res)=>{
-    let id = parseInt(req.params.id);
-    let foundComment = comments.find( (comment) =>{
-        return comment.id === id;
-    } )
+    let {id} = req.params;
+    let foundComment = comments.find(comment=> comment.id == id);
     res.render('show', {foundComment});
 })
 
@@ -82,7 +80,7 @@ app.get('/blogs/:id/edit', (req,res)=>{
     let {id} = req.params;
     let foundComment = comments.find(comment=> comment.id == id);
     res.render('edit',{foundComment})
-})
+})r
 
 // task 6 : actually editing the blog using patch not put
 app.patch('/blogs/:id', (req,res)=>{
