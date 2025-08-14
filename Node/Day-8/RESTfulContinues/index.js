@@ -80,7 +80,7 @@ app.get('/blogs/:id/edit', (req,res)=>{
     let {id} = req.params;
     let foundComment = comments.find(comment=> comment.id == id);
     res.render('edit',{foundComment})
-})r
+})
 
 // task 6 : actually editing the blog using patch not put
 app.patch('/blogs/:id', (req,res)=>{
